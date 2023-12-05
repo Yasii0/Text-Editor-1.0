@@ -21,3 +21,11 @@ function fontColor() {
     });
     colorPicker.click();
 }
+
+function left_alignment(){
+    document.querySelectorAll('.left_alignment').forEach(function (element){
+        element.addEventListener('click',function (){
+            document.getElementById('editor').style.textAlign='left'
+        })
+    })
+}
