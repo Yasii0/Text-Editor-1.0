@@ -19,9 +19,12 @@ button:hover{
 }
 
 #editor {
-    height: 200px;
-    max-width: 95%;
-    margin: 2% auto;
+    display:flex;
+
+    min-height: 350px;
+    margin-top: 2%;
+    margin-left:2%;
+    margin-right:2%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 10px;
