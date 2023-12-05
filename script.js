@@ -45,3 +45,11 @@ function right_alignment(){
         })
     })
 }
+
+function justify(){
+    document.querySelectorAll('.justify').forEach(function (element){
+        element.addEventListener('click',function (){
+            document.getElementById('editor').style.textAlign='justify'
+        })
+    })
+}
