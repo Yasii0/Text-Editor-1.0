@@ -1,0 +1,39 @@
+button{
+    border: none;
+    background: none;
+    height: 50px;
+}
+
+button:hover{
+    background: #949393;
+}
+
+.toolbar {
+    gap: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #5e5c5c;
+
+}
+
+#editor {
+    height: 200px;
+    max-width: 95%;
+    margin: 2% auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+}
+
+#editor:focus {
+    outline: none;
+    border-color: #ccc;
+    box-shadow: 0 0 5px #cccccc;
+
+}
+
+
+
