@@ -37,3 +37,11 @@ function center_alignment(){
         })
     })
 }
+
+function right_alignment(){
+    document.querySelectorAll('.right_alignment').forEach(function (element){
+        element.addEventListener('click',function (){
+            document.getElementById('editor').style.textAlign='right'
+        })
+    })
+}
