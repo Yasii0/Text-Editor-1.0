@@ -29,3 +29,11 @@ function left_alignment(){
         })
     })
 }
+
+function center_alignment(){
+    document.querySelectorAll('.center_alignment').forEach(function (element){
+        element.addEventListener('click',function (){
+            document.getElementById('editor').style.textAlign='center'
+        })
+    })
+}
